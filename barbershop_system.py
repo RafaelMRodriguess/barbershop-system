@@ -54,7 +54,7 @@ while True:
         
     
     print('\nCerto, e qual o melhor dia e horário para você ser atendido?\n')
-    semana = input('[Segunda\nTerca\nQuarta\nQuinta\nSexta\nSabado\n------------------\nDigite o dia: \n').upper()
+    semana = input('Segunda\nTerca\nQuarta\nQuinta\nSexta\nSabado\n------------------\nDigite o dia: \n').upper()
     
     if semana == 'SEGUNDA':
         segunda(horarios)
